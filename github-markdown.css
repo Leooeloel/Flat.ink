@@ -1,0 +1,7 @@
+@import "https://cdn.jsdelivr.net/npm/github-markdown-css@5.0.0/github-markdown-light.css";
+
+.markdown-body {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3em 1em;
+}
