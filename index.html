@@ -19,12 +19,12 @@
     <meta name="viewport" content="width=device-width" />
     <title>Flat在线教室_个人老师在线授课_Agora Flat开源教室</title>
     <script>
-      //   if (
-      //     !localStorage.getItem("flat:language") &&
-      //     navigator.language !== "zh-CN"
-      //   ) {
-      //     window.location.href = "/en/";
-      //   }
+      if (
+        !localStorage.getItem("flat:language") &&
+        navigator.language !== "zh-CN"
+      ) {
+        window.location.href += "/en/";
+      }
     </script>
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./style.css" />
