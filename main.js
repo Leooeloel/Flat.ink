@@ -40,6 +40,6 @@ void (function () {
   select.on("change", (e) => {
     const language = e.target.value;
     localStorage.setItem(langKey, language);
-    window.location.href += langHref[language];
+    window.location.href = langHref[language];
   });
 })();
